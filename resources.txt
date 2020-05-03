@@ -1,0 +1,7 @@
+https://medium.com/faun/aws-s3-bucket-using-terraform-fb2e36c85d8a
+
+# S3 security
+https://cloudacademy.com/blog/amazon-s3-security-master-bucket-polices-acls/
+
+# IAM Policy document
+https://www.terraform.io/docs/providers/aws/d/iam_policy_document.html
