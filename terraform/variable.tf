@@ -1,13 +1,16 @@
 variable "region" {
   type = string
+  description = "Preferred AWS region."
 }
 
 variable "access_key" {
   type = string
+  description = "IAM user access key."
 }
 
 variable "secret_access_key" {
   type = string
+  description = "IAM user secret access key."
 }
 
 variable "env" {
@@ -23,5 +26,5 @@ variable "bucket_name" {
 
 variable "iam_user_arns" {
   type = list(string)
-  description = "List of ARN of IAM user who can put object into and delete object from bucket"
+  description = "List of ARN of IAM user who can put object into and delete object from bucket."
 }
