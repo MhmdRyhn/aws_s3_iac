@@ -33,5 +33,5 @@ variable "iam_user_arns" {
 variable "s3_bucket_folders" {
   type = list(string)
   description = "A list of folders name."
-  default = ["plants", "pots"]
+  default = ["images", "text-files"]
 }

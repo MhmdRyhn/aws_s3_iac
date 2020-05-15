@@ -1,5 +1,9 @@
 # aws_s3_iac
-Setting up a S3 bucket using Terraform.
+Setting up a S3 bucket using Terraform. This contains the following features:
+- Create bucket
+- Bucket policy
+- CORS configuration
+- Create folder(s) inside the bucket
 
 
 # Commands To Manipulate Resources
