@@ -3,6 +3,7 @@ Setting up a S3 bucket using Terraform. This contains the following features:
 - Create bucket
 - Bucket policy
 - CORS configuration
+- Object versioning enabled
 - Create folder(s) inside the bucket
 
 

@@ -20,6 +20,10 @@ resource "aws_s3_bucket" "terra_bucket" {
     ]
   }
 
+  versioning {
+    enabled = true
+  }
+
   tags = {
     Access = "Public Read Write"
   }
