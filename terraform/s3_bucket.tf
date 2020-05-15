@@ -4,6 +4,13 @@ resource "aws_s3_bucket" "terra_bucket" {
   # statement is commented out, both will work same.
   //  policy = data.aws_iam_policy_document.s3_bucket_policy.json
 
+  cors_rule {
+    allowed_methods = ["GET", "POST"]
+    allowed_origins = ["*"]
+    allowed_headers = ["*"]
+    expose_headers = ["ETag"]
+  }
+
   tags = {
     Access = "Public Read Write"
   }
